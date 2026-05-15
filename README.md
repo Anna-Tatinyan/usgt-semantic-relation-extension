@@ -88,7 +88,7 @@ The user-story backlog material used in this thesis is based on the requirements
 For action-level information used in parts of the intra-story evaluation setup, this work refers to the qualified user-story resources released by Sathurshan Arulmohan, Sébastien Mosser, and Marie-Jean Meurs.
 
 - ACE Design
-  [https://github.com/ace-design/qualified-user-stories](https://github.com/ace-design)
+  [https://github.com/ace-design/qualified-user-stories](https://github.com/ace-design/qualified-user-stories)
 
 ### UserStoryGraphTransformer
 
