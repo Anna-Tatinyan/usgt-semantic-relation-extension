@@ -92,46 +92,11 @@ For action-level information used in parts of the intra-story evaluation setup, 
 
 ### UserStoryGraphTransformer
 
-This thesis builds on the UserStoryGraphTransformer (USGT) as the structural graph-construction foundation. Add the archived software or dataset record here once the exact bibliographic metadata of the intended source has been confirmed.
+This thesis builds on the UserStoryGraphTransformer (USGT) as the structural graph-construction foundation. 
 
 - USGT archive  
   [https://zenodo.org/records/14254059](https://zenodo.org/records/14254059)
 
----
-
-## Directory Structure
-
-```text
-.
-├── data/
-│   ├── processed/
-│   ├── evaluation/
-│   └── synthetic/
-│
-├── prompts/
-│   ├── classification/
-│   └── transformations/
-│
-├── src/
-│   ├── intra_story/
-│   ├── inter_story/
-│   ├── retrieval/
-│   ├── graph/
-│   └── utils/
-│
-├── evaluation/
-│   ├── metrics/
-│   ├── outputs/
-│   └── error_analysis/
-│
-├── neo4j/
-│   └── applicability_queries.cypher
-│
-├── results/
-├── README.md
-├── requirements.txt
-└── LICENSE
-```
 
 ## Citation
 
