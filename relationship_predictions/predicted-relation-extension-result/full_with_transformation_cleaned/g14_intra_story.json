@@ -1,0 +1,1286 @@
+[
+  {
+    "story_id": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "action_1": "see",
+    "action_2": "discover",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+    "action_1": "see",
+    "action_2": "decide",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "action_1": "view",
+    "action_2": "present",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "action_1": "work out",
+    "action_2": "have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "preview",
+    "action_2": "using",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.",
+    "action_1": "browse",
+    "action_2": "find",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+    "action_1": "adjust",
+    "action_2": "handle",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+    "action_1": "search",
+    "action_2": "find",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "action_1": "publish",
+    "action_2": "view",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.",
+    "action_1": "import",
+    "action_2": "access",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "action_1": "overwrite",
+    "action_2": "fix",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "action_1": "restore",
+    "action_2": "download",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "publish",
+    "action_2": "use",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "action_1": "know",
+    "action_2": "get going quickly",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "action_1": "restore",
+    "action_2": "available to view",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "get",
+    "action_2": "keeps working",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "action_1": "configure",
+    "action_2": "start publishing",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "stored",
+    "action_2": "still have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "action_1": "compare",
+    "action_2": "adjust",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "action_1": "sign up",
+    "action_2": "publish",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "action_1": "see",
+    "action_2": "understand",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+    "action_1": "know",
+    "action_2": "adjust",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "validated",
+    "action_2": "know immediately",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+    "action_1": "know",
+    "action_2": "handle",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",
+    "action_1": "set",
+    "action_2": "change",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "action_1": "invite",
+    "action_2": "join",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+    "action_1": "see",
+    "action_2": "choose",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.",
+    "action_1": "import",
+    "action_2": "has",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+    "action_1": "load",
+    "action_2": "immediately start playing",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+    "action_1": "install",
+    "action_2": "deployed locally",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "get",
+    "action_2": "still use",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+    "action_1": "decide",
+    "action_2": "update",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+    "action_1": "get",
+    "action_2": "decide",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "action_1": "join",
+    "action_2": "using",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "action_1": "use",
+    "action_2": "depend",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "action_1": "download",
+    "action_2": "study",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "action_1": "view",
+    "action_2": "get",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "validated",
+    "action_2": "correct",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "action_1": "wrangle",
+    "action_2": "infer",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "refine",
+    "action_2": "achieve",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "action_1": "invite",
+    "action_2": "using",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "action_1": "have",
+    "action_2": "charge",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "still use",
+    "action_2": "keeps working",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "publish",
+    "action_2": "caches",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+    "action_1": "see",
+    "action_2": "get involved",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "caches",
+    "action_2": "use",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.",
+    "action_1": "see",
+    "action_2": "know",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "action_1": "use",
+    "action_2": "update",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "caches",
+    "action_2": "still have",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "action_1": "sign up",
+    "action_2": "have",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "still have",
+    "action_2": "use",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "action_1": "preview",
+    "action_2": "check",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "action_1": "invite",
+    "action_2": "start contributing",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+    "action_1": "be notified",
+    "action_2": "check out",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "action_1": "join",
+    "action_2": "start contributing",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "action_1": "tag",
+    "action_2": "create",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "action_1": "show",
+    "action_2": "immediately catches",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "action_1": "invite",
+    "action_2": "sign up",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+    "action_1": "install",
+    "action_2": "developed independently",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to have private data packages, so that I can share just with my team.",
+    "action_1": "have",
+    "action_2": "share",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "action_1": "see",
+    "action_2": "adjust",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+    "action_1": "search",
+    "action_2": "find",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+    "action_1": "update",
+    "action_2": "work with",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it.",
+    "action_1": "get",
+    "action_2": "return to",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "action_1": "study",
+    "action_2": "infer",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it.",
+    "action_1": "get",
+    "action_2": "review",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "action_1": "tag",
+    "action_2": "refer",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "action_1": "know",
+    "action_2": "work out",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+    "action_1": "be notified",
+    "action_2": "take action",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "action_1": "see",
+    "action_2": "get",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "action_1": "list",
+    "action_2": "deterministically deployed locally",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "action_1": "download",
+    "action_2": "wrangle",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "action_1": "invite",
+    "action_2": "publish",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "gets broken",
+    "action_2": "still have",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "action_1": "see",
+    "action_2": "look further",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+    "action_1": "downloaded",
+    "action_2": "choose",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "publishing",
+    "action_2": "using",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "moved",
+    "action_2": "removed",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "action_1": "see",
+    "action_2": "get",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+    "action_1": "sign up",
+    "action_2": "allows",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "get",
+    "action_2": "moved",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "action_1": "publish",
+    "action_2": "know",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "action_1": "publish",
+    "action_2": "have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "want",
+    "action_2": "correct",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "lost",
+    "action_2": "still have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+    "action_1": "know",
+    "action_2": "changed",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "action_1": "see",
+    "action_2": "produce",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "action_1": "depends",
+    "action_2": "deterministically deployed locally",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "action_1": "signing up",
+    "action_2": "get going quickly",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "action_1": "be warned",
+    "action_2": "try to overwrite",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "publish",
+    "action_2": "lost",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "have",
+    "action_2": "correct",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "publish",
+    "action_2": "correct",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "action_1": "invite",
+    "action_2": "using",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "achieve",
+    "action_2": "using",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "validated",
+    "action_2": "have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "action_1": "list",
+    "action_2": "depends",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "moved",
+    "action_2": "still use",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "action_1": "wrangle",
+    "action_2": "generate",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "want",
+    "action_2": "know immediately",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "removed",
+    "action_2": "still use",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "lost",
+    "action_2": "gets broken",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "action_1": "validate",
+    "action_2": "publish",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+    "action_1": "keep",
+    "action_2": "change",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "accidentally broken",
+    "action_2": "have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "action_1": "know",
+    "action_2": "have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "action_1": "pin",
+    "action_2": "depends",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "want",
+    "action_2": "validated",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "action_1": "be warned",
+    "action_2": "exists",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "action_1": "signing up",
+    "action_2": "do next",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "action_1": "works",
+    "action_2": "share",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+    "action_1": "view",
+    "action_2": "want",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "caches",
+    "action_2": "gets broken",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "stored",
+    "action_2": "lost",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "want",
+    "action_2": "accidentally broken",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "action_1": "get",
+    "action_2": "look further",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "publish",
+    "action_2": "gets broken",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.",
+    "action_1": "has",
+    "action_2": "access",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "moved",
+    "action_2": "keeps working",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "action_1": "use",
+    "action_2": "using",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "action_1": "download",
+    "action_2": "infer",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "want",
+    "action_2": "publish",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "publish",
+    "action_2": "validated",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+    "action_1": "version",
+    "action_2": "change",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "publish",
+    "action_2": "have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "action_1": "infer",
+    "action_2": "generate",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "publishing",
+    "action_2": "achieve",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "accidentally broken",
+    "action_2": "correct",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "publish",
+    "action_2": "accidentally broken",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "action_1": "get going quickly",
+    "action_2": "do next",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "action_1": "want",
+    "action_2": "have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "lost",
+    "action_2": "use",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "action_1": "validate",
+    "action_2": "know",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "action_1": "fix",
+    "action_2": "mess up",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "action_1": "start contributing",
+    "action_2": "using",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "action_1": "depend",
+    "action_2": "using",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "action_1": "stored",
+    "action_2": "gets broken",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to download a Data package at a particular version, so that that I know it is compatible with my scripts and system.",
+    "action_1": "download",
+    "action_2": "know",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+    "action_1": "version",
+    "action_2": "keep",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "refine",
+    "action_2": "using",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "publishing",
+    "action_2": "refine",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "action_1": "study",
+    "action_2": "wrangle",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "action_1": "get",
+    "action_2": "removed",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "action_1": "using",
+    "action_2": "sign up",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "action_1": "check",
+    "action_2": "share",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "action_1": "using",
+    "action_2": "publish",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to lock a dataset to a private audience so that users outside that audience cannot view it.",
+    "action_1": "lock",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to archive a dataset so that visitors cannot download it from the public catalog.",
+    "action_1": "archive a dataset",
+    "action_2": "download it",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a registry admin, I want to reject a publisher account signup so that the publisher cannot publish a data package to the registry under that account.",
+    "action_1": "reject",
+    "action_2": "publish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Visitor, I want to revoke Google authorization during sign-up so that I cannot sign up with Google in that session.",
+    "action_1": "revoke Google authorization",
+    "action_2": "sign up with Google",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want the onboarding checklist to lock publishing for an incomplete signup so that I cannot submit my first article from that account.",
+    "action_1": "lock publishing",
+    "action_2": "submit my first article",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an Admin, I want to revoke an invitation so that the recipient cannot join the platform with that invitation.",
+    "action_1": "revoke",
+    "action_2": "join",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to disable a data package in the registry so that visitors cannot access its online home.",
+    "action_1": "disable",
+    "action_2": "access",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to disable my client configuration so that the client cannot publish data packages.",
+    "action_1": "disable client configuration",
+    "action_2": "publish data packages",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to archive a registered data package so that the publish command cannot update it.",
+    "action_1": "archive",
+    "action_2": "update",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to unpublish a data package so that users cannot view the package.",
+    "action_1": "unpublish",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to permanently delete a data package so that users cannot download it from the repository.",
+    "action_1": "permanently delete",
+    "action_2": "download",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to reject invalid registry data so that I cannot publish that data to the registry.",
+    "action_1": "reject",
+    "action_2": "publish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want the system to reject invalid data so that I cannot publish broken data.",
+    "action_1": "reject invalid data",
+    "action_2": "publish broken data",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want the service to invalidate an untrusted dataset so that I cannot download unreliable data.",
+    "action_1": "invalidate",
+    "action_2": "download",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want the registry to revoke the cached copy of my resource data so that users cannot download that cached copy.",
+    "action_1": "revoke",
+    "action_2": "download",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to lock a data package when its preserved copy is missing so that my app cannot download package data from a broken reference.",
+    "action_1": "lock",
+    "action_2": "download",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a data package in the UI so that the package cannot be republished while already published.",
+    "action_1": "publish",
+    "action_2": "republish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to lock a data package in the UI so that users cannot publish it.",
+    "action_1": "lock",
+    "action_2": "publish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to purge a deleted data package via CLI so that no user can restore the package afterward.",
+    "action_1": "purge",
+    "action_2": "restore",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to permanently purge a deleted data package so that no publisher can undelete it back to the catalog.",
+    "action_1": "purge",
+    "action_2": "undelete",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want the CLI to reject invalid data package view declarations so that I cannot publish the data package with broken views.",
+    "action_1": "reject",
+    "action_2": "publish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to disable preview access for a data package so that I cannot view that package online afterward.",
+    "action_1": "disable preview access",
+    "action_2": "view the data package online",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a publisher, I want to unpublish a dataset so that consumers cannot preview its highlighted listing.",
+    "action_1": "unpublish",
+    "action_2": "preview",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a consumer, I want to hide a data package so that I cannot view that dataset in my recommendations.",
+    "action_1": "hide",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to invalidate a datapackage with a broken preview so that I cannot share its results.",
+    "action_1": "invalidate a datapackage",
+    "action_2": "share its results",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to filter out data alternatives below a download-count threshold so that I cannot select a low-popularity alternative.",
+    "action_1": "filter out",
+    "action_2": "select",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to unpublish an outdated package example so that visitors cannot view it in the registry.",
+    "action_1": "unpublish",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to hide expired example data packages so that I cannot open them from the examples page.",
+    "action_1": "hide",
+    "action_2": "open",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want the catalog to hide restricted data packages from search results so that I cannot select packages outside my access.",
+    "action_1": "hide",
+    "action_2": "select",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want the catalog to hide retired data packages from keyword results so that I cannot open unavailable packages from those results.",
+    "action_1": "hide retired data packages",
+    "action_2": "open unavailable packages",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to select bundle-only export for a data package so that I cannot download the descriptor and each resource separately.",
+    "action_1": "select",
+    "action_2": "download",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Developer, I want to lock a data package version in my Node project so that the dependency framework cannot upgrade that package automatically.",
+    "action_1": "lock a data package version",
+    "action_2": "upgrade that package automatically",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to invalidate a Data Package with unsupported R metadata so that I cannot load it into my R session.",
+    "action_1": "invalidate",
+    "action_2": "load",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Data Analyst, I want to revoke access to a restricted data package so that users cannot download it.",
+    "action_1": "revoke access",
+    "action_2": "download",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Data Analyst, I want to invalidate a previously downloaded data package when a newer version is available so that I cannot analyze the outdated data.",
+    "action_1": "invalidate",
+    "action_2": "analyze",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to cancel a DataPackage SQLite export so that no one can download that database afterward.",
+    "action_1": "cancel",
+    "action_2": "download",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Data Analyst, I want to invalidate an outdated local datapackage version so that I cannot compare it with the desired schema version.",
+    "action_1": "invalidate",
+    "action_2": "compare",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Web Developer, I want to lock each project to a selected datapackage version so that the project cannot load a different local version.",
+    "action_1": "lock",
+    "action_2": "load",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Developer, I want to pin each DataPackage requirement to an exact version so that the project cannot install a newer schema-changing DataPackage during local deployment.",
+    "action_1": "pin",
+    "action_2": "install",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to invalidate a datapackage tag on the registry server so that consumers cannot reference its snapshot.",
+    "action_1": "invalidate",
+    "action_2": "reference",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to lock an existing stable tag so that publishers cannot overwrite its tagged data.",
+    "action_1": "lock",
+    "action_2": "overwrite",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to lock a previously tagged datapackage so that I cannot overwrite that tag by mistake.",
+    "action_1": "lock",
+    "action_2": "overwrite",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to lock a released Data Package version so that consumers cannot overwrite that version.",
+    "action_1": "lock",
+    "action_2": "overwrite",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to revoke access to a previous tagged version so that users cannot open it for review.",
+    "action_1": "revoke",
+    "action_2": "open",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to mark a changed schema version as incompatible so that my scripts cannot process data packages with that schema.",
+    "action_1": "mark",
+    "action_2": "process",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to invalidate an aged downloaded datapackage so that I cannot reuse that download as current.",
+    "action_1": "invalidate",
+    "action_2": "reuse",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to revoke access to a particular Datapackage version online so that other people cannot view that data timeslice.",
+    "action_1": "revoke access",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to reject an incompatible Data package version so that my scripts cannot download that version.",
+    "action_1": "reject",
+    "action_2": "download",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to deactivate a package watch so that the service does not send change notifications for that package.",
+    "action_1": "deactivate",
+    "action_2": "send",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to block a site from my activity list so that I cannot view its activity level.",
+    "action_1": "block",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to hide a publisher so that I cannot view that publisher's packages in my results.",
+    "action_1": "hide",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to block a publisher profile so that I cannot view that publisher's packages in discovery.",
+    "action_1": "block",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to block a publisher so that I cannot view that publisher's profile from package pages.",
+    "action_1": "block",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to block a publisher so that I cannot find that publisher's data packages in search results.",
+    "action_1": "block",
+    "action_2": "find",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an Owner, I want to lock my profile so that I cannot edit my profile.",
+    "action_1": "lock",
+    "action_2": "edit",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an Owner, I want to cancel a pending invitation for an existing user so that the user cannot accept membership in my publisher.",
+    "action_1": "cancel",
+    "action_2": "accept",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to cancel an email invitation so that the recipient cannot sign up as a member of my Publisher.",
+    "action_1": "cancel",
+    "action_2": "sign up",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "action_1": "remove",
+    "action_2": "publish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "action_1": "remove",
+    "action_2": "modify",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to lock a person's role assignment so that no manager can change that person's role.",
+    "action_1": "lock",
+    "action_2": "change",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to revoke a pending owner invitation so that the user cannot accept ownership.",
+    "action_1": "revoke",
+    "action_2": "accept",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to revoke a user's owner role so that the user cannot manage workspace settings.",
+    "action_1": "revoke a user's owner role",
+    "action_2": "manage workspace settings",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an Admin, I want to lock the site title setting so that editors cannot change the site title.",
+    "action_1": "lock",
+    "action_2": "change",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an Admin, I want to revoke dashboard access for a workspace so that team members cannot view its user, API usage, and download metrics.",
+    "action_1": "revoke dashboard access",
+    "action_2": "view usage metrics",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an Admin, I want to deactivate an outdated pricing plan so that users cannot purchase that plan.",
+    "action_1": "deactivate",
+    "action_2": "purchase",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want the system to invalidate a site's outdated pricing plan so that I cannot view old prices for future cost estimates.",
+    "action_1": "invalidate",
+    "action_2": "view",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to cancel my pricing plan so that I cannot publish listings that require that plan.",
+    "action_1": "cancel",
+    "action_2": "publish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Publisher, I want to mark a data package as private so that users outside my team cannot access it.",
+    "action_1": "mark",
+    "action_2": "access",
+    "label": "BLOCKS"
+  }
+]

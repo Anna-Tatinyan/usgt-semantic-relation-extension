@@ -1,0 +1,37 @@
+Transformation family:
+PREREQUISITE_TRANSFORMATION
+
+Family goal:
+Create a new story that provides a capability, authorization, resource, configuration, available data condition, or prior system state that the source story reasonably needs in order to be implemented, accessed, or carried out as described.
+
+Family-specific constraints:
+- Preserve the same product area and workflow context.
+- The new story must introduce a reasonably necessary prior condition for the source story, such as required setup, access, data availability, configuration, or system state.
+- Do not restate the source story in narrower form.
+- Do not generate a mere implementation task or technical sub-step unless it is still plausible as a backlog-level user story.
+- Do not create a story that is simply related or helpful; it should reflect a genuine prerequisite rather than loose support.
+- Explicit dependency markers (e.g. "before", "after approval", "once available") are allowed when natural, but the generated stories should not rely exclusively on one narrow repeated phrase pattern.
+- Do not rely on temporal order alone; the relation should reflect necessity, not mere sequence.
+- Keep the rewritten story realistic and plausible in a real backlog.
+
+Example:
+Input stories:
+[
+  {
+    "story_id": "1",
+    "source_story": "As a customer, I want to submit my insurance claim so that it can be reviewed."
+  }
+]
+
+Example output:
+{
+  "items": [
+    {
+      "story_id": "1",
+      "source_story": "As a customer, I want to submit my insurance claim so that it can be reviewed.",
+      "generated_story": "As a customer, I want to upload the required claim documents so that I can submit my insurance claim.",
+      "transformation": "PREREQUISITE_TRANSFORMATION",
+      "rationale": "The generated story provides a necessary prior condition for the source story."
+    }
+  ]
+}

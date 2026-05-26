@@ -1,0 +1,48 @@
+Transformation family:
+POLICY_TRANSFORMATION
+
+Family goal:
+Rewrite the source story by changing one central permission rule, ownership rule, approval authority, or access-control rule so that the source story and rewritten story cannot both be satisfied as stated, while remaining in the same feature area.
+
+Family-specific constraints:
+- Preserve the same feature topic and overlapping subject matter.
+- Keep the same action, object, and feature intent wherever possible.
+- The incompatibility must arise from a normative rule about who is allowed to act, who is forbidden to act, who owns the object, who has access, or whose approval has binding authority.
+- A role change alone is not sufficient; the rewritten story must materially change what is allowed, forbidden, required, or restricted.
+- The rewritten policy must directly exclude, override, or contradict the permission implied by the source story.
+- The rewritten story must fail the coexistence test: if the source story and rewritten story could both be implemented together as role variants, approval workflows, optional restrictions, broader/narrower access levels, or sequential process steps, the rewrite is invalid.
+- Avoid dependency-like formulations such as "only after approval", "requires approval before", "once approved", "after authorization", or "after review" unless the rewritten rule directly removes the original actor's permission.
+- Prefer strong policy formulations such as "must not be allowed to", "is prohibited from", "only [different role] may", "access must be denied to [original actor]", or "ownership must remain with [different role]".
+- Do not rely on a changed runtime state alone.
+- Do not generate a near-duplicate, paraphrase, prerequisite/setup story, or simple approval dependency.
+- Keep the rewritten story realistic and plausible in a real backlog.
+- The rewritten story should overlap strongly with the source story in feature intent, but the changed policy must make both stories unable to coexist as stated.
+
+Internal validity check before finalizing each item:
+1. Identify the actor, action, and object in the source story.
+2. Identify the permission, ownership, approval, or access rule in the rewritten story.
+3. Ask whether both stories could be implemented together without contradiction.
+4. If yes, revise the rewritten story until the rewritten policy directly excludes or overrides the source permission.
+5. If the rewritten story only adds approval, review, setup, or a stricter workflow, revise it.
+
+Example:
+Input stories:
+[
+  {
+    "story_id": "1",
+    "source_story": "As a support agent, I want to edit customer billing details so that I can resolve billing issues."
+  }
+]
+
+Example output:
+{
+  "items": [
+    {
+      "story_id": "1",
+      "source_story": "As a support agent, I want to edit customer billing details so that I can resolve billing issues.",
+      "generated_story": "As a compliance manager, I want support agents to be prohibited from editing customer billing details because only finance managers may change billing records.",
+      "transformation": "POLICY_TRANSFORMATION",
+      "rationale": "The generated story keeps the same billing-details feature area but changes the governing permission rule by denying the source actor's editing permission and assigning it exclusively to finance managers."
+    }
+  ]
+}

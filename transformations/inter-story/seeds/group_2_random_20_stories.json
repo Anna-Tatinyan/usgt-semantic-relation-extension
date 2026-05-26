@@ -1,0 +1,82 @@
+[
+  {
+    "story_id": "58",
+    "source_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want."
+  },
+  {
+    "story_id": "10",
+    "source_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space."
+  },
+  {
+    "story_id": "1",
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone."
+  },
+  {
+    "story_id": "20",
+    "source_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result."
+  },
+  {
+    "story_id": "18",
+    "source_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download."
+  },
+  {
+    "story_id": "17",
+    "source_story": "As a Publisher, I want to create a data package in the UI so that it is available and published."
+  },
+  {
+    "story_id": "11",
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing."
+  },
+  {
+    "story_id": "9",
+    "source_story": "As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone."
+  },
+  {
+    "story_id": "48",
+    "source_story": "As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action."
+  },
+  {
+    "story_id": "8",
+    "source_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there."
+  },
+  {
+    "story_id": "52",
+    "source_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce."
+  },
+  {
+    "story_id": "39",
+    "source_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it."
+  },
+  {
+    "story_id": "2",
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under."
+  },
+  {
+    "story_id": "65",
+    "source_story": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows."
+  },
+  {
+    "story_id": "55",
+    "source_story": "As an Owner, I want to invite an existing user, so that the user can become a member of my publisher."
+  },
+  {
+    "story_id": "16",
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published."
+  },
+  {
+    "story_id": "63",
+    "source_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable."
+  },
+  {
+    "story_id": "19",
+    "source_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again."
+  },
+  {
+    "story_id": "22",
+    "source_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention."
+  },
+  {
+    "story_id": "0",
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people."
+  }
+]

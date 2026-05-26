@@ -1,0 +1,78 @@
+[
+  {
+    "story_id": "3",
+    "source_story": "As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website."
+  },
+  {
+    "story_id": "4",
+    "source_story": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly."
+  },
+  {
+    "story_id": "5",
+    "source_story": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data."
+  },
+  {
+    "story_id": "25",
+    "source_story": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case."
+  },
+  {
+    "story_id": "26",
+    "source_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is."
+  },
+  {
+    "story_id": "30",
+    "source_story": "As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand."
+  },
+  {
+    "story_id": "31",
+    "source_story": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework."
+  },
+  {
+    "story_id": "32",
+    "source_story": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it."
+  },
+  {
+    "story_id": "35",
+    "source_story": "As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form."
+  },
+  {
+    "story_id": "36",
+    "source_story": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version."
+  },
+  {
+    "story_id": "37",
+    "source_story": "As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally."
+  },
+  {
+    "story_id": "38",
+    "source_story": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes."
+  },
+  {
+    "story_id": "43",
+    "source_story": "As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it."
+  },
+  {
+    "story_id": "45",
+    "source_story": "As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not."
+  },
+  {
+    "story_id": "49",
+    "source_story": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved."
+  },
+  {
+    "story_id": "54",
+    "source_story": "As an Owner, I want to edit my profile, so that that it is updated with new information."
+  },
+  {
+    "story_id": "56",
+    "source_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher."
+  },
+  {
+    "story_id": "61",
+    "source_story": "As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title."
+  },
+  {
+    "story_id": "62",
+    "source_story": "As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going."
+  }
+]

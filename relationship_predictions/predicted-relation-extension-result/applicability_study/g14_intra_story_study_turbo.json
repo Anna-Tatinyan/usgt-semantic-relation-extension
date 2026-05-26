@@ -1,0 +1,320 @@
+[
+  {
+    "story_id": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "action_1": "publish",
+    "action_2": "view",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "action_1": "publish",
+    "action_2": "share",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "action_1": "sign up",
+    "action_2": "publish",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "action_1": "use",
+    "action_2": "update",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "action_1": "validate",
+    "action_2": "publish",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "action_1": "validate",
+    "action_2": "know",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "action_1": "publish",
+    "action_2": "know",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "action_1": "know",
+    "action_2": "check",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "action_1": "know",
+    "action_2": "run",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "action_1": "check",
+    "action_2": "run",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "action_1": "restore",
+    "action_2": "view",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "action_1": "restore",
+    "action_2": "download",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "action_1": "view",
+    "action_2": "download",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "action_1": "undelete",
+    "action_2": "visible",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "preview",
+    "action_2": "refine",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "preview",
+    "action_2": "publishing",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "action_1": "refine",
+    "action_2": "publishing",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "action_1": "view",
+    "action_2": "get",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "action_1": "show",
+    "action_2": "catches",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "action_1": "preview",
+    "action_2": "check",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "action_1": "preview",
+    "action_2": "share",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "action_1": "check",
+    "action_2": "share",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "action_1": "see",
+    "action_2": "get",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+    "action_1": "search",
+    "action_2": "find",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "action_1": "tag",
+    "action_2": "create",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "action_1": "tag",
+    "action_2": "refer",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "action_1": "create",
+    "action_2": "refer",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "action_1": "try",
+    "action_2": "be warned",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "action_1": "be warned",
+    "action_2": "overwrite",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "action_1": "be warned",
+    "action_2": "rely",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "action_1": "try",
+    "action_2": "overwrite",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "action_1": "try",
+    "action_2": "rely",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "action_1": "overwrite",
+    "action_2": "rely",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "action_1": "overwrite",
+    "action_2": "fix",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+    "action_1": "know",
+    "action_2": "adjust",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "action_1": "view",
+    "action_2": "present",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "action_1": "view",
+    "action_2": "discuss",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "action_1": "present",
+    "action_2": "discuss",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "action_1": "view",
+    "action_2": "see",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "action_1": "remove",
+    "action_2": "have",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "action_1": "remove",
+    "action_2": "publish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "action_1": "remove",
+    "action_2": "modify",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "action_1": "have",
+    "action_2": "publish",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "action_1": "have",
+    "action_2": "modify",
+    "label": "BLOCKS"
+  },
+  {
+    "story_id": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "action_1": "publish",
+    "action_2": "modify",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "action_1": "view",
+    "action_2": "change",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an owner, I want to make a user an owner, so that they have full control.",
+    "action_1": "make",
+    "action_2": "have",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "action_1": "have",
+    "action_2": "charge",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "action_1": "have",
+    "action_2": "make",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "action_1": "charge",
+    "action_2": "make",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "action_1": "know",
+    "action_2": "work out",
+    "label": "ENABLES"
+  },
+  {
+    "story_id": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "action_1": "know",
+    "action_2": "have",
+    "label": "NONE"
+  },
+  {
+    "story_id": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "action_1": "work out",
+    "action_2": "have",
+    "label": "NONE"
+  }
+]

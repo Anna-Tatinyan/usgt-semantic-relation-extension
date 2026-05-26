@@ -1,0 +1,41 @@
+Transformation family:
+PRECONDITION_ACTION_TRANSFORMATION
+
+Family goal:
+Rewrite the story so that the first main action establishes a condition, state, verification, setup, or resource needed for the second main action to be carried out.
+
+Family-specific constraints:
+- The first action should function as a reasonably necessary precondition for the second, not merely as something helpful or loosely related.
+- The enabling effect should arise from the story content, not only from one repeated phrase pattern.
+- Natural precondition markers are allowed when they fit the story, but do not rely mainly on one narrow repeated phrase pattern such as "before I can", "so that I can", "in order to", or "after verifying" across most examples.
+- Do not turn the rewrite into a blocking case or a simple paraphrase of the source.
+- Prefer enabling cases built around concrete action verbs such as verify, authenticate, configure, connect, submit, approve, or register.
+- Avoid examples in which the enabling relation depends mainly on weak benefit-clause verbs or loosely attached subordinate verbs.
+
+Example:
+Input stories:
+[
+  {
+    "story_id": "1",
+    "source_story": "As a user, I want to update my profile so that my information stays current."
+  }
+]
+
+Example output:
+{
+  "items": [
+    {
+      "story_id": "1",
+      "source_story": "As a user, I want to update my profile so that my information stays current.",
+      "rewritten_story": "As a user, I want to verify my identity before I update my profile so that my information stays current.",
+      "transformation": "PRECONDITION_ACTION_TRANSFORMATION",
+      "action_1": "verify",
+      "action_2": "update",
+      "rationale": "The first action establishes a required condition that enables the second action."
+    }
+  ]
+}
+
+
+Input stories:
+[PASTE SEED STORIES HERE]

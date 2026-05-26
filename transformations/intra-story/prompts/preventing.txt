@@ -1,0 +1,41 @@
+Transformation family:
+PREVENTING_CONDITION_ACTION_TRANSFORMATION
+
+Family goal:
+Rewrite the story so that the first main action creates, implies, or establishes a condition that prevents the second main action from being carried out.
+
+Family-specific constraints:
+- The blocking relation should arise from a system state, object state, session state, validation outcome, or restriction that makes the second action not possible as described.
+- The blocking relation should make the second action not possible as described, not merely delayed, discouraged, or less convenient.
+- The first action should function as a genuine preventing condition for the second action, not merely as something earlier, different, inconvenient, or loosely related.
+- Natural blocking markers are allowed when they fit the story, but do not rely mainly on one narrow repeated phrase pattern such as "cannot", "unless", or "until" across most examples.
+- Do not turn the rewrite into a simple paraphrase, a prerequisite/enabling case, or a loosely related two-action story.
+- Prefer blocking cases built around concrete action verbs such as lock, cancel, revoke, disable, suspend, reject, archive, invalidate, or deactivate.
+- Avoid examples that merely express workflow order or prerequisites, since these are more likely to be interpreted as enabling rather than blocking.
+
+Example:
+Input stories:
+[
+  {
+    "story_id": "1",
+    "source_story": "As an admin, I want to manage account security so that unauthorized access is prevented."
+  }
+]
+
+Example output:
+{
+  "items": [
+    {
+      "story_id": "1",
+      "source_story": "As an admin, I want to manage account security so that unauthorized access is prevented.",
+      "rewritten_story": "As an admin, I want to lock an account after two failed password attempts so that the user cannot sign in until the account is unlocked.",
+      "transformation": "PREVENTING_CONDITION_ACTION_TRANSFORMATION",
+      "action_1": "lock",
+      "action_2": "sign in",
+      "rationale": "The first action creates a locked account state that blocks the second action."
+    }
+  ]
+}
+
+Input stories:
+[PASTE SEED STORIES HERE]

@@ -1,0 +1,37 @@
+Transformation family:
+PARAPHRASE_TRANSFORMATION
+
+Family goal:
+Rewrite each seed story so that the rewritten story expresses the same user need and intended behavior with different wording.
+
+Family-specific constraints:
+- Preserve the same role, functional objective, target object, and benefit if one is naturally present, unless a wording change is strictly equivalent.
+- Do not add or remove constraints, permissions, conditions, states, exceptions, or scope.
+- Do not change numbers, status values, ownership, timing, or access conditions unless the meaning remains strictly equivalent.
+- Avoid near-copy outputs with only isolated trivial synonym substitutions; prefer a natural reformulation that preserves the same requirement meaning.
+- The rewritten story should remain semantically equivalent or near-equivalent at requirement level.
+- Avoid exaggerated lexical overlap reduction if it changes requirement meaning.
+- Prefer natural paraphrase over mirrored syntax.
+- The resulting pair should express the same requirement, not a refinement, prerequisite, or conflicting variant.
+
+Example:
+Input stories:
+[
+  {
+    "story_id": "1",
+    "source_story": "As a customer, I want to download my invoice so that I can keep a copy for my records."
+  }
+]
+
+Example output:
+{
+  "items": [
+    {
+      "story_id": "1",
+      "source_story": "As a customer, I want to download my invoice so that I can keep a copy for my records.",
+      "generated_story": "As a customer, I want to save a copy of my invoice so that I can store it in my records.",
+      "transformation": "PARAPHRASE_TRANSFORMATION",
+      "rationale": "The rewritten story preserves the same requirement intent while changing the wording."
+    }
+  ]
+}

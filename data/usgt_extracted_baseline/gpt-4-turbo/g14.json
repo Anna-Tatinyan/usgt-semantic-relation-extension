@@ -1,0 +1,3347 @@
+[
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "publish",
+                "view"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset",
+                "just the dataset",
+                "few people"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can view just the dataset with a few people",
+        "Triggers": [
+            [
+                "Publisher",
+                "publish"
+            ]
+        ],
+        "Targets": [
+            [
+                "publish",
+                "dataset"
+            ],
+            [
+                "view",
+                "just the dataset"
+            ],
+            [
+                "view",
+                "few people"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "publish",
+                "share"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "dataset",
+                "dataset",
+                "publicly",
+                "everyone"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can share the dataset publicly with everyone",
+        "Triggers": [
+            [
+                "Publisher",
+                "publish"
+            ]
+        ],
+        "Targets": [
+            [
+                "publish",
+                "dataset"
+            ],
+            [
+                "share",
+                "dataset"
+            ],
+            [
+                "share",
+                "publicly"
+            ],
+            [
+                "share",
+                "everyone"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "sign up",
+                "publish"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "account",
+                "data package",
+                "registry",
+                "publisher account"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can publish my data package to the registry and to have a publisher account to publish my data package under",
+        "Triggers": [
+            [
+                "Publisher",
+                "sign up"
+            ]
+        ],
+        "Targets": [
+            [
+                "sign up",
+                "account"
+            ],
+            [
+                "publish",
+                "data package"
+            ],
+            [
+                "publish",
+                "registry"
+            ],
+            [
+                "publish",
+                "publisher account"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.",
+        "Persona": [
+            "Visitor"
+        ],
+        "Action": {
+            "Primary Action": [
+                "sign up",
+                "enter",
+                "remember"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "github",
+                "google",
+                "lots of information",
+                "password",
+                "website"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I don't have to enter lots of information and remember my password for yet another website",
+        "Triggers": [
+            [
+                "Visitor",
+                "sign up"
+            ]
+        ],
+        "Targets": [
+            [
+                "sign up",
+                "github"
+            ],
+            [
+                "sign up",
+                "google"
+            ],
+            [
+                "enter",
+                "lots of information"
+            ],
+            [
+                "remember",
+                "password"
+            ],
+            [
+                "remember",
+                "website"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+        "Persona": [
+            "Admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "invite",
+                "join",
+                "start",
+                "using"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "someone",
+                "platform",
+                "contributing",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "they can start contributing or using data",
+        "Triggers": [
+            [
+                "Admin",
+                "invite"
+            ]
+        ],
+        "Targets": [
+            [
+                "invite",
+                "someone"
+            ],
+            [
+                "join",
+                "platform"
+            ],
+            [
+                "start",
+                "contributing"
+            ],
+            [
+                "using",
+                "data"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "import",
+                "access"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "registry",
+                "data",
+                "permanent online home"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "my data has a permanent online home to access",
+        "Triggers": [
+            [
+                "Publisher",
+                "import"
+            ]
+        ],
+        "Targets": [
+            [
+                "import",
+                "data package"
+            ],
+            [
+                "import",
+                "registry"
+            ],
+            [
+                "access",
+                "data"
+            ],
+            [
+                "access",
+                "permanent online home"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "configure",
+                "start"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "client",
+                "publishing",
+                "data packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can start publishing data packages",
+        "Triggers": [
+            [
+                "Publisher",
+                "configure"
+            ]
+        ],
+        "Targets": [
+            [
+                "configure",
+                "client"
+            ],
+            [
+                "start",
+                "publishing"
+            ],
+            [
+                "start",
+                "data packages"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "use",
+                "update"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "publish command",
+                "data package",
+                "registry"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "it appears there",
+        "Triggers": [
+            [
+                "Publisher",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "publish command"
+            ],
+            [
+                "update",
+                "data package"
+            ],
+            [
+                "update",
+                "registry"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "unpublish"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "visible",
+                "anyone"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "it is no longer visible to anyone",
+        "Triggers": [
+            [
+                "Publisher",
+                "unpublish"
+            ]
+        ],
+        "Targets": [
+            [
+                "unpublish",
+                "data package"
+            ],
+            [
+                "unpublish",
+                "visible"
+            ],
+            [
+                "unpublish",
+                "anyone"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "delete"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "storage space"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "it no longer takes up storage space",
+        "Triggers": [
+            [
+                "Publisher",
+                "delete"
+            ]
+        ],
+        "Targets": [
+            [
+                "delete",
+                "data package"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "validate",
+                "publish",
+                "know"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "registry",
+                "good data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I publish good data and know that I am doing",
+        "Triggers": [
+            [
+                "Publisher",
+                "validate"
+            ]
+        ],
+        "Targets": [
+            [
+                "validate",
+                "data"
+            ],
+            [
+                "publish",
+                "good data"
+            ],
+            [
+                "publish",
+                "registry"
+            ],
+            [
+                "know",
+                "good data"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know",
+                "check",
+                "run"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "downloading",
+                "good",
+                "relied on",
+                "myself",
+                "annoying bugs"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I don't have to check it myself or run into annoying bugs later on",
+        "Triggers": [
+            [
+                "Consumer",
+                "know"
+            ],
+            [
+                "Consumer",
+                "check"
+            ],
+            [
+                "Consumer",
+                "run"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "data"
+            ],
+            [
+                "know",
+                "downloading"
+            ],
+            [
+                "know",
+                "good"
+            ],
+            [
+                "know",
+                "relied on"
+            ],
+            [
+                "check",
+                "myself"
+            ],
+            [
+                "run",
+                "annoying bugs"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "publish"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "resource data",
+                "servers",
+                "registry",
+                "copy",
+                "data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "if my data is lost or gets broken I still have a copy people can use",
+        "Triggers": [
+            [
+                "Publisher",
+                "publish"
+            ]
+        ],
+        "Targets": [
+            [
+                "publish",
+                "data package"
+            ],
+            [
+                "publish",
+                "resource data"
+            ],
+            [
+                "publish",
+                "servers"
+            ],
+            [
+                "publish",
+                "registry"
+            ],
+            [
+                "publish",
+                "copy"
+            ],
+            [
+                "publish",
+                "data"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get",
+                "use"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "data package",
+                "original data",
+                "app",
+                "analysis"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can still use is and my app or analysis keeps working",
+        "Triggers": [
+            [
+                "Consumer",
+                "get"
+            ],
+            [
+                "Consumer",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "data"
+            ],
+            [
+                "get",
+                "data package"
+            ],
+            [
+                "get",
+                "original data"
+            ],
+            [
+                "use",
+                "app"
+            ],
+            [
+                "use",
+                "analysis"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "publish"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "UI",
+                "available",
+                "published"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "it is available and published",
+        "Triggers": [
+            [
+                "Publisher",
+                "publish"
+            ]
+        ],
+        "Targets": [
+            [
+                "publish",
+                "data package"
+            ],
+            [
+                "publish",
+                "UI"
+            ],
+            [
+                "publish",
+                "available"
+            ],
+            [
+                "publish",
+                "published"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to create a data package in the UI so that it is available and published.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "create",
+                "available",
+                "published"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "UI"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "it is available and published",
+        "Triggers": [
+            [
+                "Publisher",
+                "create"
+            ],
+            [
+                "Publisher",
+                "available"
+            ],
+            [
+                "Publisher",
+                "published"
+            ]
+        ],
+        "Targets": [
+            [
+                "create",
+                "data package"
+            ],
+            [
+                "create",
+                "UI"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "restore",
+                "view",
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "deleted data package",
+                "cli",
+                "back visible",
+                "available"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "it is back visible and available to view, download",
+        "Triggers": [
+            [
+                "Publisher",
+                "restore"
+            ]
+        ],
+        "Targets": [
+            [
+                "restore",
+                "deleted data package"
+            ],
+            [
+                "restore",
+                "cli"
+            ],
+            [
+                "view",
+                "back visible"
+            ],
+            [
+                "download",
+                "available"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "undelete",
+                "visible"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "deleted data packages",
+                "deleted data packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "the deleted data packages is now visible again",
+        "Triggers": [
+            [
+                "Publisher",
+                "undelete"
+            ]
+        ],
+        "Targets": [
+            [
+                "undelete",
+                "deleted data packages"
+            ],
+            [
+                "visible",
+                "deleted data packages"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "preview",
+                "refine",
+                "publishing"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "views",
+                "current data package",
+                "cli",
+                "json declarations",
+                "datapackage view section"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can refine the json declarations of datapackage view section to achieve a great looking result",
+        "Triggers": [
+            [
+                "Publisher",
+                "preview"
+            ],
+            [
+                "Publisher",
+                "refine"
+            ],
+            [
+                "Publisher",
+                "publishing"
+            ]
+        ],
+        "Targets": [
+            [
+                "preview",
+                "views"
+            ],
+            [
+                "preview",
+                "current data package"
+            ],
+            [
+                "preview",
+                "cli"
+            ],
+            [
+                "refine",
+                "json declarations"
+            ],
+            [
+                "refine",
+                "datapackage view section"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "online",
+                "sense",
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can get a sense of whether this is the dataset I want",
+        "Triggers": [
+            [
+                "Consumer",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "data package"
+            ],
+            [
+                "view",
+                "online"
+            ],
+            [
+                "get",
+                "sense"
+            ],
+            [
+                "get",
+                "dataset"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+        "Persona": [
+            "publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "show",
+                "catches"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "world",
+                "published data",
+                "consumer's attention"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "it immediately catches consumer's attention",
+        "Triggers": [
+            [
+                "publisher",
+                "show"
+            ]
+        ],
+        "Targets": [
+            [
+                "show",
+                "world"
+            ],
+            [
+                "show",
+                "published data"
+            ],
+            [
+                "catches",
+                "consumer's attention"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+        "Persona": [
+            "consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "sense",
+                "dataset"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can get a sense of whether I want this dataset or not",
+        "Triggers": [
+            [
+                "consumer",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "data package"
+            ],
+            [
+                "get",
+                "sense"
+            ],
+            [
+                "get",
+                "dataset"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "preview",
+                "check",
+                "share"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datapackage",
+                "works",
+                "results"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can check it works and share the results",
+        "Triggers": [
+            [
+                "Publisher",
+                "preview"
+            ]
+        ],
+        "Targets": [
+            [
+                "preview",
+                "datapackage"
+            ],
+            [
+                "check",
+                "works"
+            ],
+            [
+                "share",
+                "results"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see",
+                "choose"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data",
+                "most popular",
+                "alternatives",
+                "use case"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can choose most popular in the case when there are several alternatives for my use case",
+        "Triggers": [
+            [
+                "Consumer",
+                "see"
+            ],
+            [
+                "Consumer",
+                "choose"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "data"
+            ],
+            [
+                "choose",
+                "most popular"
+            ],
+            [
+                "choose",
+                "alternatives"
+            ],
+            [
+                "choose",
+                "use case"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see",
+                "understand"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "real examples",
+                "published packages",
+                "useful",
+                "simple",
+                "datapackage format",
+                "registry"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can understand how useful and simple the datapackage format and the registry is",
+        "Triggers": [
+            [
+                "Publisher",
+                "see"
+            ],
+            [
+                "Publisher",
+                "understand"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "real examples"
+            ],
+            [
+                "see",
+                "published packages"
+            ],
+            [
+                "understand",
+                "useful"
+            ],
+            [
+                "understand",
+                "simple"
+            ],
+            [
+                "understand",
+                "datapackage format"
+            ],
+            [
+                "understand",
+                "registry"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "example data packages",
+                "sense",
+                "site"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I get a sense of what is on this site and if it is useful to look further",
+        "Triggers": [
+            [
+                "Consumer",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "example data packages"
+            ],
+            [
+                "get",
+                "sense"
+            ],
+            [
+                "get",
+                "site"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search",
+                "find"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data packages",
+                "ones"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can find the ones I want",
+        "Triggers": [
+            [
+                "Consumer",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "data packages"
+            ],
+            [
+                "find",
+                "ones"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search",
+                "find"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "description",
+                "data package",
+                "package",
+                "key words"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can find package which related to some key words",
+        "Triggers": [
+            [
+                "Consumer",
+                "search"
+            ],
+            [
+                "Consumer",
+                "find"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "description"
+            ],
+            [
+                "search",
+                "data package"
+            ],
+            [
+                "find",
+                "package"
+            ],
+            [
+                "find",
+                "key words"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "file",
+                "descriptor",
+                "resource"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I don't have to download descriptor and each resource by hand",
+        "Triggers": [
+            [
+                "Consumer",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "data package"
+            ],
+            [
+                "download",
+                "file"
+            ],
+            [
+                "download",
+                "descriptor"
+            ],
+            [
+                "download",
+                "resource"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+        "Persona": [
+            "Developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "use",
+                "depend"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "node lib",
+                "project",
+                "normal dependency framework"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can depend on it using my normal dependency framework",
+        "Triggers": [
+            [
+                "Developer",
+                "use"
+            ]
+        ],
+        "Targets": [
+            [
+                "use",
+                "data package"
+            ],
+            [
+                "use",
+                "node lib"
+            ],
+            [
+                "use",
+                "project"
+            ],
+            [
+                "depend",
+                "normal dependency framework"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "load",
+                "start"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "R",
+                "playing"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can immediately start playing with it",
+        "Triggers": [
+            [
+                "Consumer",
+                "load"
+            ],
+            [
+                "Consumer",
+                "start"
+            ]
+        ],
+        "Targets": [
+            [
+                "load",
+                "Data Package"
+            ],
+            [
+                "load",
+                "R"
+            ],
+            [
+                "start",
+                "playing"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+        "Persona": [
+            "Data Analyst"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download",
+                "study",
+                "wrangle",
+                "infer",
+                "generate"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data package",
+                "it",
+                "new data",
+                "new insights"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can study it and wrangle with it to infer new data or generate new insights",
+        "Triggers": [
+            [
+                "Data Analyst",
+                "download"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "data package"
+            ],
+            [
+                "study",
+                "it"
+            ],
+            [
+                "wrangle",
+                "it"
+            ],
+            [
+                "infer",
+                "new data"
+            ],
+            [
+                "generate",
+                "new insights"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+        "Persona": [
+            "Data Analyst"
+        ],
+        "Action": {
+            "Primary Action": [
+                "update",
+                "work"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "previously downloaded data package",
+                "most recent data"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can work with the most recent data",
+        "Triggers": [
+            [
+                "Data Analyst",
+                "update"
+            ]
+        ],
+        "Targets": [
+            [
+                "update",
+                "previously downloaded data package"
+            ],
+            [
+                "work",
+                "most recent data"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DataPackage's data",
+                "coherent SQLite database",
+                "it",
+                "one form"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can get it easily in one form",
+        "Triggers": [
+            [
+                "Consumer",
+                "download"
+            ],
+            [
+                "Consumer",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "DataPackage's data"
+            ],
+            [
+                "download",
+                "coherent SQLite database"
+            ],
+            [
+                "get",
+                "it"
+            ],
+            [
+                "get",
+                "one form"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+        "Persona": [
+            "Data Analyst"
+        ],
+        "Action": {
+            "Primary Action": [
+                "compare",
+                "see",
+                "adjust"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "different versions",
+                "datapackage",
+                "schema changes",
+                "analytics code",
+                "desired schema version"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can see schema changes clearly and adjust my analytics code to the desired schema version",
+        "Triggers": [
+            [
+                "Data Analyst",
+                "compare"
+            ]
+        ],
+        "Targets": [
+            [
+                "compare",
+                "different versions"
+            ],
+            [
+                "compare",
+                "datapackage"
+            ],
+            [
+                "see",
+                "schema changes"
+            ],
+            [
+                "adjust",
+                "analytics code"
+            ],
+            [
+                "adjust",
+                "desired schema version"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+        "Persona": [
+            "Web Developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "install",
+                "develop",
+                "deploy"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "multiple versions",
+                "same datapackage",
+                "separately",
+                "projects",
+                "locally"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "all my projects could be developed independently and deployed locally",
+        "Triggers": [
+            [
+                "Web Developer",
+                "install"
+            ],
+            [
+                "Web Developer",
+                "develop"
+            ],
+            [
+                "Web Developer",
+                "deploy"
+            ]
+        ],
+        "Targets": [
+            [
+                "install",
+                "multiple versions"
+            ],
+            [
+                "install",
+                "same datapackage"
+            ],
+            [
+                "install",
+                "separately"
+            ],
+            [
+                "develop",
+                "projects"
+            ],
+            [
+                "deploy",
+                "locally"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+        "Persona": [
+            "Developer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "list",
+                "pin"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "DataPackages requirements",
+                "project",
+                "file",
+                "exact versions",
+                "DataPackage",
+                "project"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "the project can be deterministically deployed locally and won't break because of the DataPackage schema changes",
+        "Triggers": [
+            [
+                "Developer",
+                "list"
+            ],
+            [
+                "Developer",
+                "pin"
+            ]
+        ],
+        "Targets": [
+            [
+                "list",
+                "DataPackages requirements"
+            ],
+            [
+                "list",
+                "project"
+            ],
+            [
+                "list",
+                "file"
+            ],
+            [
+                "pin",
+                "exact versions"
+            ],
+            [
+                "pin",
+                "DataPackage"
+            ],
+            [
+                "pin",
+                "project"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "tag",
+                "create",
+                "refer"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "datapackage",
+                "snapshot of data",
+                "registry server"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "consumers can refer to it",
+        "Triggers": [
+            [
+                "Publisher",
+                "tag"
+            ]
+        ],
+        "Targets": [
+            [
+                "tag",
+                "datapackage"
+            ],
+            [
+                "create",
+                "snapshot of data"
+            ],
+            [
+                "refer",
+                "snapshot of data"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "be warned",
+                "try",
+                "overwrite",
+                "overwrite",
+                "rely"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "tag",
+                "tag",
+                "stable tagged data",
+                "consumers"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I don't accidentally overwrite stable tagged data which is relied on by consumers",
+        "Triggers": [
+            [
+                "Publisher",
+                "be warned"
+            ]
+        ],
+        "Targets": [
+            [
+                "be warned",
+                "tag"
+            ],
+            [
+                "try",
+                "overwrite"
+            ],
+            [
+                "overwrite",
+                "tag"
+            ],
+            [
+                "overwrite",
+                "stable tagged data"
+            ],
+            [
+                "rely",
+                "consumers"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "overwrite",
+                "fix"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "previously tagged datapackage"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can fix it if I mess up",
+        "Triggers": [
+            [
+                "Publisher",
+                "overwrite"
+            ]
+        ],
+        "Targets": [
+            [
+                "overwrite",
+                "previously tagged datapackage"
+            ],
+            [
+                "fix",
+                "previously tagged datapackage"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "version",
+                "keep"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data Package",
+                "multiple versions",
+                "older versions",
+                "consumer systems",
+                "datapackage"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I do not break consumer systems when I change my datapackage",
+        "Triggers": [
+            [
+                "Publisher",
+                "version"
+            ]
+        ],
+        "Targets": [
+            [
+                "version",
+                "Data Package"
+            ],
+            [
+                "keep",
+                "multiple versions"
+            ],
+            [
+                "keep",
+                "older versions"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get",
+                "access",
+                "return",
+                "review"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "previous version",
+                "tagged"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can return to it and review it",
+        "Triggers": [
+            [
+                "Publisher",
+                "get"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "access"
+            ],
+            [
+                "access",
+                "previous version"
+            ],
+            [
+                "access",
+                "tagged"
+            ],
+            [
+                "return",
+                "previous version"
+            ],
+            [
+                "review",
+                "previous version"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know",
+                "adjust"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "full details",
+                "data package schema",
+                "scripts"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can adjust my scripts to handle it",
+        "Triggers": [
+            [
+                "Consumer",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "full details"
+            ],
+            [
+                "know",
+                "data package schema"
+            ],
+            [
+                "adjust",
+                "scripts"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "get",
+                "decide"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "age",
+                "datapackage",
+                "update"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can decide if I should update or not",
+        "Triggers": [
+            [
+                "Consumer",
+                "get"
+            ],
+            [
+                "Consumer",
+                "decide"
+            ]
+        ],
+        "Targets": [
+            [
+                "get",
+                "age"
+            ],
+            [
+                "get",
+                "datapackage"
+            ],
+            [
+                "decide",
+                "update"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view",
+                "present",
+                "discuss"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Datapackage",
+                "particular version",
+                "online",
+                "particular data timeslice",
+                "other people"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can present/discuss the particular data timeslice of interest with other people",
+        "Triggers": [
+            [
+                "Consumer",
+                "view"
+            ],
+            [
+                "Consumer",
+                "present"
+            ],
+            [
+                "Consumer",
+                "discuss"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "Datapackage"
+            ],
+            [
+                "view",
+                "particular version"
+            ],
+            [
+                "view",
+                "online"
+            ],
+            [
+                "present",
+                "particular data timeslice"
+            ],
+            [
+                "discuss",
+                "particular data timeslice"
+            ],
+            [
+                "discuss",
+                "other people"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to download a Data package at a particular version, so that that I know it is compatible with my scripts and system.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "download",
+                "know"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "Data package",
+                "particular version",
+                "compatible",
+                "scripts",
+                "system"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I know it is compatible with my scripts and system",
+        "Triggers": [
+            [
+                "Consumer",
+                "download"
+            ],
+            [
+                "Consumer",
+                "know"
+            ]
+        ],
+        "Targets": [
+            [
+                "download",
+                "Data package"
+            ],
+            [
+                "download",
+                "particular version"
+            ],
+            [
+                "know",
+                "compatible"
+            ],
+            [
+                "know",
+                "scripts"
+            ],
+            [
+                "know",
+                "system"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "notified",
+                "check out",
+                "take action"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "changes",
+                "package",
+                "changed"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can check out what has changed and take action",
+        "Triggers": [
+            [
+                "Consumer",
+                "notified"
+            ],
+            [
+                "Consumer",
+                "check out"
+            ],
+            [
+                "Consumer",
+                "take action"
+            ]
+        ],
+        "Targets": [
+            [
+                "notified",
+                "changes"
+            ],
+            [
+                "notified",
+                "package"
+            ],
+            [
+                "check out",
+                "changed"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see",
+                "decide"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "active",
+                "site",
+                "get involved"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can decide if I should get involved",
+        "Triggers": [
+            [
+                "Consumer",
+                "see"
+            ],
+            [
+                "Consumer",
+                "decide"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "active"
+            ],
+            [
+                "see",
+                "site"
+            ],
+            [
+                "decide",
+                "get involved"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "browse",
+                "find"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "publishers",
+                "interesting publishers",
+                "packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can find interesting publishers and their packages",
+        "Triggers": [
+            [
+                "Consumer",
+                "browse"
+            ]
+        ],
+        "Targets": [
+            [
+                "browse",
+                "publishers"
+            ],
+            [
+                "find",
+                "interesting publishers"
+            ],
+            [
+                "find",
+                "packages"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see",
+                "discover",
+                "get"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "publisher's profile",
+                "packages",
+                "sense",
+                "how active",
+                "good"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can discover their packages and get a sense of how active and good they are",
+        "Triggers": [
+            [
+                "Consumer",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "publisher's profile"
+            ],
+            [
+                "discover",
+                "packages"
+            ],
+            [
+                "get",
+                "sense"
+            ],
+            [
+                "get",
+                "how active"
+            ],
+            [
+                "get",
+                "good"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view",
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "publisher's profile",
+                "who",
+                "particular package",
+                "what other packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can see who is behind a particular package or to see what other packages they produce",
+        "Triggers": [
+            [
+                "Consumer",
+                "view"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "publisher's profile"
+            ],
+            [
+                "see",
+                "who"
+            ],
+            [
+                "see",
+                "particular package"
+            ],
+            [
+                "see",
+                "what other packages"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+        "Persona": [
+            "Consumer"
+        ],
+        "Action": {
+            "Primary Action": [
+                "search"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "data packages",
+                "publisher",
+                "data package"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can easily find one data package amongst all the data packages by this publisher",
+        "Triggers": [
+            [
+                "Consumer",
+                "search"
+            ]
+        ],
+        "Targets": [
+            [
+                "search",
+                "data packages"
+            ],
+            [
+                "search",
+                "publisher"
+            ],
+            [
+                "search",
+                "data package"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an Owner, I want to edit my profile, so that that it is updated with new information.",
+        "Persona": [
+            "Owner"
+        ],
+        "Action": {
+            "Primary Action": [
+                "edit",
+                "updated"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "profile",
+                "new information"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "it is updated with new information",
+        "Triggers": [
+            [
+                "Owner",
+                "edit"
+            ],
+            [
+                "Owner",
+                "updated"
+            ]
+        ],
+        "Targets": [
+            [
+                "edit",
+                "profile"
+            ],
+            [
+                "updated",
+                "new information"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an Owner, I want to invite an existing user, so that the user can become a member of my publisher.",
+        "Persona": [
+            "Owner"
+        ],
+        "Action": {
+            "Primary Action": [
+                "invite",
+                "become"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "existing user",
+                "member",
+                "publisher"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "the user can become a member of my publisher",
+        "Triggers": [
+            [
+                "Owner",
+                "invite"
+            ],
+            [
+                "Owner",
+                "become"
+            ]
+        ],
+        "Targets": [
+            [
+                "invite",
+                "existing user"
+            ],
+            [
+                "become",
+                "member"
+            ],
+            [
+                "become",
+                "publisher"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": {
+            "Primary Action": [
+                "invite",
+                "sign up",
+                "become",
+                "authorize"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "someone",
+                "email",
+                "member",
+                "Publisher",
+                "data packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "they are authorized to publish data packages under my Publisher",
+        "Triggers": [
+            [
+                "owner",
+                "invite"
+            ]
+        ],
+        "Targets": [
+            [
+                "invite",
+                "someone"
+            ],
+            [
+                "invite",
+                "email"
+            ],
+            [
+                "sign up",
+                "someone"
+            ],
+            [
+                "become",
+                "member"
+            ],
+            [
+                "become",
+                "Publisher"
+            ],
+            [
+                "authorize",
+                "someone"
+            ],
+            [
+                "authorize",
+                "data packages"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": {
+            "Primary Action": [
+                "remove",
+                "have",
+                "publish",
+                "modify"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "someone",
+                "membership",
+                "publisher",
+                "ability",
+                "data packages"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "they no longer have ability to publish or modify my data packages",
+        "Triggers": [
+            [
+                "owner",
+                "remove"
+            ],
+            [
+                "owner",
+                "have"
+            ],
+            [
+                "owner",
+                "publish"
+            ],
+            [
+                "owner",
+                "modify"
+            ]
+        ],
+        "Targets": [
+            [
+                "remove",
+                "someone"
+            ],
+            [
+                "remove",
+                "membership"
+            ],
+            [
+                "remove",
+                "publisher"
+            ],
+            [
+                "have",
+                "ability"
+            ],
+            [
+                "publish",
+                "data packages"
+            ],
+            [
+                "modify",
+                "data packages"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": {
+            "Primary Action": [
+                "view",
+                "change"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "people",
+                "organization",
+                "roles"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can change these if I want",
+        "Triggers": [
+            [
+                "owner",
+                "view"
+            ],
+            [
+                "owner",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "view",
+                "people"
+            ],
+            [
+                "view",
+                "roles"
+            ],
+            [
+                "change",
+                "roles"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an owner, I want to make a user an owner, so that they have full control.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": {
+            "Primary Action": [
+                "make",
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user",
+                "owner",
+                "full control"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "they have full control",
+        "Triggers": [
+            [
+                "owner",
+                "make"
+            ],
+            [
+                "owner",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "make",
+                "user"
+            ],
+            [
+                "make",
+                "owner"
+            ],
+            [
+                "have",
+                "full control"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an owner, I want to remove a user as an owner, so that they are just a member and no longer have full control.",
+        "Persona": [
+            "owner"
+        ],
+        "Action": {
+            "Primary Action": [
+                "remove"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "user",
+                "owner",
+                "member",
+                "full control"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "they are just a member and no longer have full control",
+        "Triggers": [
+            [
+                "owner",
+                "remove"
+            ]
+        ],
+        "Targets": [
+            [
+                "remove",
+                "user"
+            ],
+            [
+                "remove",
+                "owner"
+            ],
+            [
+                "remove",
+                "member"
+            ],
+            [
+                "remove",
+                "full control"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",
+        "Persona": [
+            "Admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "set",
+                "change"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "key configuration parameters",
+                "site deployment",
+                "key information",
+                "site title"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can change key information like the site title",
+        "Triggers": [
+            [
+                "Admin",
+                "set"
+            ],
+            [
+                "Admin",
+                "change"
+            ]
+        ],
+        "Targets": [
+            [
+                "set",
+                "key configuration parameters"
+            ],
+            [
+                "set",
+                "site deployment"
+            ],
+            [
+                "change",
+                "key information"
+            ],
+            [
+                "change",
+                "site title"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.",
+        "Persona": [
+            "Admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "see"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "key metrics",
+                "usage",
+                "users",
+                "API usage",
+                "downloads"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I know how things are going",
+        "Triggers": [
+            [
+                "Admin",
+                "see"
+            ]
+        ],
+        "Targets": [
+            [
+                "see",
+                "key metrics"
+            ],
+            [
+                "see",
+                "usage"
+            ],
+            [
+                "see",
+                "users"
+            ],
+            [
+                "see",
+                "API usage"
+            ],
+            [
+                "see",
+                "downloads"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+        "Persona": [
+            "Admin"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have",
+                "charge",
+                "make"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "pricing plan",
+                "billing system",
+                "users",
+                "platform"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can charge users and make my platform sustainable",
+        "Triggers": [
+            [
+                "Admin",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "pricing plan"
+            ],
+            [
+                "have",
+                "billing system"
+            ],
+            [
+                "charge",
+                "users"
+            ],
+            [
+                "make",
+                "platform"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "know",
+                "work out",
+                "have"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "site",
+                "pricing plan",
+                "prices",
+                "cost",
+                "future",
+                "sense",
+                "sustainable"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can work out what this will cost me in the future and have a sense that these guys are sustainable",
+        "Triggers": [
+            [
+                "Publisher",
+                "know"
+            ],
+            [
+                "Publisher",
+                "work out"
+            ],
+            [
+                "Publisher",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "know",
+                "site"
+            ],
+            [
+                "know",
+                "pricing plan"
+            ],
+            [
+                "know",
+                "prices"
+            ],
+            [
+                "work out",
+                "cost"
+            ],
+            [
+                "work out",
+                "future"
+            ],
+            [
+                "have",
+                "sense"
+            ],
+            [
+                "have",
+                "sustainable"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "sign up",
+                "entitled"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "pricing plan",
+                "what it allows"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I am entitled to what it allows",
+        "Triggers": [
+            [
+                "Publisher",
+                "sign up"
+            ],
+            [
+                "Publisher",
+                "entitled"
+            ]
+        ],
+        "Targets": [
+            [
+                "sign up",
+                "pricing plan"
+            ],
+            [
+                "entitled",
+                "what it allows"
+            ]
+        ],
+        "Contains": []
+    },
+    {
+        "ID": "",
+        "PID": "g14",
+        "Text": " As a Publisher, I want to have private data packages, so that I can share just with my team.",
+        "Persona": [
+            "Publisher"
+        ],
+        "Action": {
+            "Primary Action": [
+                "have",
+                "share"
+            ],
+            "Secondary Action": []
+        },
+        "Entity": {
+            "Primary Entity": [
+                "private data packages",
+                "my team"
+            ],
+            "Secondary Entity": []
+        },
+        "Benefit": "I can share just with my team",
+        "Triggers": [
+            [
+                "Publisher",
+                "have"
+            ]
+        ],
+        "Targets": [
+            [
+                "have",
+                "private data packages"
+            ],
+            [
+                "share",
+                "my team"
+            ]
+        ],
+        "Contains": []
+    }
+]

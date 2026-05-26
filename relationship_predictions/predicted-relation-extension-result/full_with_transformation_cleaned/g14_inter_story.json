@@ -1,0 +1,1242 @@
+[
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a Publisher, I want to have private data packages, so that I can share just with my team.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an Owner, I want to edit my profile, so that that it is updated with new information.",
+    "target_story": "As an owner, I want to remove a user as an owner, so that they are just a member and no longer have full control.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "target_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+    "target_story": "As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+    "target_story": "As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+    "target_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an owner, I want to make a user an owner, so that they have full control.",
+    "target_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+    "target_story": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.",
+    "target_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "target_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+    "target_story": "As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "target_story": "As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+    "target_story": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an Owner, I want to edit my profile, so that that it is updated with new information.",
+    "target_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Publisher, I want to have private data packages, so that I can share just with my team.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "target_story": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "target_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+    "target_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "target_story": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an Owner, I want to edit my profile, so that that it is updated with new information.",
+    "target_story": "As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "target_story": "As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "target_story": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "target_story": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "target_story": "As an owner, I want to remove a user as an owner, so that they are just a member and no longer have full control.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "target_story": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+    "target_story": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.",
+    "target_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "target_story": "As a Consumer, I want to download a Data package at a particular version, so that that I know it is compatible with my scripts and system.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "target_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an Owner, I want to invite an existing user, so that the user can become a member of my publisher.",
+    "target_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "target_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "target_story": "As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+    "target_story": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+    "target_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "target_story": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+    "target_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+    "target_story": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "target_story": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "target_story": "As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.",
+    "target_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.",
+    "target_story": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "target_story": "As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+    "target_story": "As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "target_story": "As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+    "target_story": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "target_story": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "target_story": "As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "target_story": "As a Consumer, I want to download a Data package at a particular version, so that that I know it is compatible with my scripts and system.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "target_story": "As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+    "target_story": "As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "target_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.",
+    "target_story": "As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+    "target_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "target_story": "As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "target_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "target_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "target_story": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+    "target_story": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to download a Data package at a particular version, so that that I know it is compatible with my scripts and system.",
+    "target_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.",
+    "target_story": "As a Visitor, I want to register using github or google, so that I can avoid filling in a lot of details and having to remember another website password.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.",
+    "target_story": "As a security administrator, I want visitors to be prohibited from signing up via GitHub or Google because new accounts may only be created through the standard email-and-password registration flow.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.",
+    "target_story": "As a Visitor, I want to sign up only with an email address and password, not via GitHub or Google, so that my account is not tied to a third-party identity provider.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.",
+    "target_story": "As an administrator, I want to configure GitHub and Google as approved sign-up providers so that visitors can use those accounts to register for the website.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "target_story": "As a Publisher, I want clear guidance on the next steps after I sign up, so that I can get started quickly.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "target_story": "As an onboarding manager, I want newly signed-up Publishers to be denied access to next-step onboarding guidance because only onboarding managers may view and provide those instructions.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "target_story": "As a Publisher, I want to know what to do next before signing up, rather than after signing up, so that I can get going quickly.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",
+    "target_story": "As a Publisher, I want to verify my email and activate my publisher account so that I can access the onboarding guidance for my next steps.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "target_story": "As an Admin, I want to send an invitation for someone to join the platform, so they can begin contributing or working with data.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a platform owner, I want Admins to be prohibited from inviting someone to join the platform because only platform owners may send invitations for new contributors or data users.",
+    "target_story": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "target_story": "As an Admin, I want to invite only people who already have an active platform account, not people who have not joined the platform, so that current users can start contributing or using data.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.",
+    "target_story": "As an Admin, I want to configure the available user roles and data access groups so that new invitees can be assigned the right permissions when they join the platform.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+    "target_story": "As a Consumer, I want to view how often the data has been downloaded, so that I can select the most popular option when multiple alternatives fit my use case.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+    "target_story": "As a data catalog administrator, I want Consumers to be prohibited from seeing how many times data has been downloaded because only dataset owners may access download-count metrics.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+    "target_story": "As a Consumer, I want to see only when the data has not been downloaded at all, not how much it has already been downloaded, so that I can identify alternatives with no prior usage for my use case.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.",
+    "target_story": "As a Platform Administrator, I want each dataset download to be recorded and linked to the correct dataset, so that reliable download counts are available for consumers.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "target_story": "As a Publisher, I want to view actual examples of published packages so that I can understand how useful and easy to use the datapackage format and the registry are.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "target_story": "As a registry administrator, I want Publishers to be denied access to real examples of published packages because only registry administrators may view example packages in the registry.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "target_story": "As a Publisher, I want to see real examples only of unpublished draft packages, not published packages, so that I can understand how useful and simple the datapackage format and the registry is before publication.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.",
+    "target_story": "As a registry administrator, I want to seed the registry with approved public datapackage examples so that publishers have real published packages available to browse.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.",
+    "target_story": "As a Consumer, I want to get the full data package as a single file, so that I do not need to manually download the descriptor and every resource separately.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.",
+    "target_story": "As a data governance manager, I want Consumers to be prohibited from downloading a data package as one file because only data curators may export complete package bundles.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.",
+    "target_story": "As a Consumer, I want to download the data package as separate descriptor and resource files, not as one bundled file, so that I can handle each package component individually.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.",
+    "target_story": "As a Data Provider, I want to publish a data package with its descriptor and all associated resources included, so that consumers have a complete package available for single-file download.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "target_story": "As a Developer, I want to include the data package as a Node library in my project, so that I can manage it with my normal dependency framework.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "target_story": "As a platform maintainer, I want developers to be prohibited from using the data package as a node lib in their projects because the data package may only be accessed through the approved service API.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "target_story": "As a Developer, I want to use the data package in my project only as a static data package, not as a node lib, so that I manage it outside my normal dependency framework.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.",
+    "target_story": "As a Developer, I want the data package to be published as a versioned Node package in the project package registry, so that I can install it through my normal dependency framework.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+    "target_story": "As a Consumer, I want to import a Data Package in R so that I can start exploring it right away.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+    "target_story": "As a data governance manager, I want Consumers to be prohibited from loading Data Packages from R because only Data Analysts may load Data Packages into R environments.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+    "target_story": "As a Consumer, I want to load a Data Package only when I am not using R, so that I can immediately start playing with it in the supported environment.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.",
+    "target_story": "As a Consumer, I want to install an R library that supports Data Packages, so that my R environment is ready to open them.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+    "target_story": "As a Consumer, I want to download a DataPackage's data as a single coherent SQLite database so that I can access it easily in one format.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a DataPackage owner, I want Consumers to be prohibited from downloading a DataPackage's data as one coherent SQLite database because only DataPackage owners may export the package in that form.",
+    "target_story": "As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+    "target_story": "As a Consumer, I want to download a DataPackage's data only as its separate original data files, not as one coherent SQLite database, so that I can work with each file in its native form.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.",
+    "target_story": "As a DataPackage maintainer, I want to publish the package with validated data resources and metadata so that it can be prepared as one coherent SQLite database for consumers.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "target_story": "As a Data Analyst, I want to locally compare different versions of a datapackage so that I can clearly identify schema changes and adapt my analytics code to the schema version I need.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "target_story": "As a Data Governance Manager, I want Data Analysts to be prohibited from comparing different versions of a datapackage locally because only Data Stewards may perform datapackage schema version comparisons in the governed environment.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "target_story": "As a Data Analyst, I want to compare different versions of a datapackage only from the remote registry, not from local copies, so that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",
+    "target_story": "As a Data Analyst, I want to download and keep selected versions of a datapackage with their version metadata locally, so that the versions are available for schema review and analysis work.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+    "target_story": "As a Web Developer, I want to install different versions of the same datapackage side by side, so that each of my projects can be developed independently and deployed locally.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+    "target_story": "As a release manager, I want Web Developers to be prohibited from installing multiple versions of the same datapackage separately because each local deployment may use only the single approved version managed by release engineering.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+    "target_story": "As a Web Developer, I want only one version of the same datapackage to be installed locally at a time, so that all my projects use a consistent shared package version.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.",
+    "target_story": "As a Web Developer, I want each project to declare its required datapackage name and version in a local dependency file, so that the package installer can resolve the correct datapackage for that project.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "target_story": "As a Developer, I want to specify every DataPackages requirement for my project in the file and lock each dependent DataPackage to an exact version, so that the project can be deployed locally in a deterministic way and is not broken by DataPackage schema changes.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a release manager, I want developers to be prohibited from listing or pinning DataPackage requirements in project files because only release managers may define the approved DataPackage dependencies and exact versions for a project.",
+    "target_story": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "target_story": "As a Developer, I want to list all DataPackages requirements for my project in the file without pinning exact versions of any DataPackage that my project depends on, so that the project can accept compatible DataPackage schema updates during local deployment.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes.",
+    "target_story": "As a Developer, I want to view the available DataPackages with their published version history and schema details, so that I can identify the exact DataPackage versions my project depends on.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it.",
+    "target_story": "As a Publisher, I want to access an earlier version that I tagged so that I can go back to it and review it.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it.",
+    "target_story": "As a repository administrator, I want Publishers to be prohibited from accessing previous versions they tagged because only repository administrators may retrieve archived tagged versions for review.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it.",
+    "target_story": "As a Publisher, I want to be able to get access to a previous version only while it is untagged, not after I have tagged it, so that I can return to and review versions that have not been marked yet.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it.",
+    "target_story": "As a Publisher, I want to tag a saved version of my content, so that it can be identified later when I need to return to it for review.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+    "target_story": "As a Consumer, I want to see how old a datapackage I previously downloaded is, so that I can determine whether I should update it.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+    "target_story": "As a repository administrator, I want Consumers to be prohibited from viewing the age of datapackages they have previously downloaded, because only datapackage owners may access package age metadata.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+    "target_story": "As a Consumer, I want to get a sense of the age only for a datapackage that I have not downloaded before, not for one already in my downloads, so that I can decide whether it is current enough to download.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.",
+    "target_story": "As a Consumer, I want the system to retain the download date and version information for datapackages I have downloaded, so that their age can be determined later.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+    "target_story": "As a Consumer, I want to view the site's level of activity, so that I can determine whether to participate.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+    "target_story": "As a community manager, I want Consumers to be blocked from seeing site activity levels because only registered members may access participation metrics.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+    "target_story": "As a Consumer, I want to see when the site is inactive instead of how active it is, so that I can decide if I should get involved.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.",
+    "target_story": "As a site administrator, I want the system to collect recent participation data such as posts, comments, and member activity so that site activity can be shown to consumers.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an Owner, I want to edit my profile, so that that it is updated with new information.",
+    "target_story": "As an Owner, I want to update my profile so that it reflects my new information.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As an Owner, I want to edit my profile, so that that it is updated with new information.",
+    "target_story": "As an account administrator, I want Owners to be prohibited from editing their own profiles because only account administrators may update Owner profile information.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Owner, I want to edit my profile, so that that it is updated with new information.",
+    "target_story": "As an Owner, I want to edit my profile in a read-only state, so that it remains unchanged and is not updated with new information.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Owner, I want to edit my profile, so that that it is updated with new information.",
+    "target_story": "As an Owner, I want to create my profile with my basic information, so that there is an existing profile available for me to update later.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "target_story": "As an owner, I want to send an email invitation for someone to register and join my Publisher as a member, so that they have permission to publish data packages under my Publisher.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "target_story": "As a platform administrator, I want owners to be prohibited from inviting people by email to become members of a Publisher because only platform administrators may grant Publisher membership and publishing rights.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "target_story": "As an owner, I want to invite only someone who has already signed up, using their email, to become a member of my Publisher, so that they are authorized to publish data packages under my Publisher.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.",
+    "target_story": "As an owner, I want to register my Publisher and be recognized as its owner, so that I can manage membership for that Publisher.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",
+    "target_story": "As an Admin, I want to configure important settings for my site deployment, so that I can update key details such as the site title.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",
+    "target_story": "As a deployment owner, I want Admins to be prohibited from setting key configuration parameters for a site deployment because only deployment owners may change key information like the site title.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",
+    "target_story": "As an Admin, I want the key configuration parameters for my site deployment to be locked and uneditable, so that key information like the site title cannot be changed.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",
+    "target_story": "As an Admin, I want to create a site deployment with an initial configuration profile, so that key settings are available for me to manage later.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.",
+    "target_story": "As an Admin, I want to view important usage metrics, such as users, API usage, and downloads, so that I can understand how things are going.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.",
+    "target_story": "As an organization owner, I want Admins to be prohibited from viewing key usage metrics such as users, API usage, and downloads because only organization owners may access usage analytics.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.",
+    "target_story": "As an Admin, I want to see only system health metrics, not usage metrics such as users, API usage, or downloads, so that I can monitor platform stability.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.",
+    "target_story": "As an Admin, I want user activity, API calls, and downloads to be captured as usage data so that key usage metrics can be reported accurately.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "target_story": "As an owner, I want to see everyone in my organization along with the roles assigned to them, so that I can modify those role assignments when I choose.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+    "target_story": "As a Publisher, I want to remove a data package for good so that it no longer uses storage space.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a Publisher, I want to make a dataset available publicly so that everyone can access and use it.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "target_story": "As a Publisher, I want to use the CLI to preview the current data package views before publishing, so that I can adjust the JSON declarations in the datapackage view section and produce a polished result.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "target_story": "As a Publisher, I want to restore a deleted data package using the CLI so that it is visible again and available for viewing and downloading.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "target_story": "As a Publisher, I want to use the UI to create a data package so that it becomes available and published.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "target_story": "As a Publisher, I want to check the data before I publish it to the registry, so that I can publish good data and understand what I am doing.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+    "target_story": "As a Publisher, I want to remove a data package from publication so that no one can see it anymore.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+    "target_story": "As a Consumer, I want to receive alerts when a package I care about changes, so that I can review the updates and decide what action to take.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "target_story": "As a Publisher, I want to update an existing data package in the registry by running a publish command, so that it is displayed there.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "target_story": "As a Consumer, I want to open a publisher's profile so that I can identify who is responsible for a specific package and browse the other packages they publish.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "target_story": "As a Publisher, I want to apply a tag to a datapackage to capture a snapshot of the data on the registry server, so that consumers can reference it.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Publisher, I want to create an account so that I can submit my data package to the registry and publish it under my publisher account.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+    "target_story": "As a Publisher, I want to enroll in a specific pricing plan so that I can access the benefits included with that plan.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As an Owner, I want to invite an existing user, so that the user can become a member of my publisher.",
+    "target_story": "As an Owner, I want to send an invitation to a current user so that they can join my publisher as a member.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a Publisher, I want to use the UI to publish a data package so that it becomes published and available.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "target_story": "As an Admin, I want a pricing plan with a billing system so that I can collect payments from users and keep my platform sustainable.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "target_story": "As a Publisher, I want to restore deleted data packages so that they are visible again.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "target_story": "As a publisher, I want to present my published data to the world so that it quickly attracts consumers' attention.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Publisher, I want to release a dataset, so that I can view that specific dataset with a small group of people.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "target_story": "As a security administrator, I want organization owners to be denied access to the organization people-and-roles list and prohibited from changing role assignments, because only security administrators may view and manage organization roles.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+    "target_story": "As a repository administrator, I want Publishers to be prohibited from permanently deleting data packages because only repository administrators may remove data packages from storage.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a data steward, I want publishers to be prohibited from publishing datasets because only data stewards may publish datasets for public sharing.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "target_story": "As a data governance administrator, I want Publishers to be prohibited from previewing the views of the current data package using cli prior to publishing because only data stewards may preview unpublished datapackage views.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "target_story": "As a repository administrator, I want Publishers to be prohibited from restoring deleted data packages via cli because only repository administrators may restore packages and make them visible and available to view or download again.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "target_story": "As a data administrator, I want Publishers to be prohibited from creating data packages in the UI because only data administrators may create and publish data packages.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "target_story": "As a registry curator, I want Publishers to be prohibited from validating their own data before publication because only registry curators may validate data submitted to the registry.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+    "target_story": "As a repository administrator, I want Publishers to be prohibited from unpublishing a data package because only repository administrators may remove data packages from public visibility.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+    "target_story": "As a registry administrator, I want consumers to be prohibited from receiving change notifications for packages they care about because only package maintainers may receive package change alerts.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "target_story": "As a registry administrator, I want Publishers to be prohibited from using the publish command to update a data package that is already in the registry because only registry administrators may update registered packages.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "target_story": "As a Consumer, I want a publisher's profile to remain hidden when I view a package, so that the publisher's identity and other packages are not exposed from the package page.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "target_story": "As a Publisher, I want to tag a datapackage to create a snapshot of the data only in my local workspace, not on the registry server, so that I can validate the snapshot before making it available to consumers.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish my data package only under an existing publisher account, not by signing up for a new account, so that packages are associated with accounts already in the registry.",
+    "target_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+    "target_story": "As a Publisher, I want to sign up for a given pricing plan only when that plan is inactive, not when it is active, so that my entitlement is based on a plan that is not currently offered.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Owner, I want to invite an existing user, so that the user can become a member of my publisher.",
+    "target_story": "As an Owner, I want to invite only a new user who does not yet have an account, not an existing user, so that the user can become a member of my publisher.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a Publisher, I want to publich a data package only in the registry, so that it is available and published",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "target_story": "As an Admin, I want the platform to remain in a free, non-billable state with no pricing plans or billing charges, so that users can access it without being charged.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "target_story": "As a Publisher, I want to restore only archived data packages, not deleted data packages, so that archived data packages are visible again.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "target_story": "As a publisher, I want to show the world only my unpublished data, not data that has already been published, so that upcoming datasets can catch consumers' attention early.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Publisher, I want to keep a dataset unpublished rather than publish it, so that I can view it with only a few people.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "target_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an Owner, I want to invite an existing user, so that the user can become a member of my publisher.",
+    "target_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.",
+    "target_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "target_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "target_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "target_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+    "target_story": "As a Publisher, I want to have private data packages, so that I can share just with my team.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+    "target_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",
+    "target_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+    "target_story": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "target_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.",
+    "target_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "target_story": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.",
+    "target_story": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.",
+    "target_story": "As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",
+    "target_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "target_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "target_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to create a data package in the UI so that it is available and published.",
+    "target_story": "As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "target_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "target_story": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "target_story": "As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "target_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "target_story": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "target_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+    "target_story": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.",
+    "target_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+    "target_story": "As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+    "target_story": "As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.",
+    "target_story": "As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "target_story": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "target_story": "As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Consumer, I want to download a Data package at a particular version, so that that I know it is compatible with my scripts and system.",
+    "target_story": "As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+    "target_story": "As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.",
+    "target_story": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.",
+    "target_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+    "target_story": "As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+    "target_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "target_story": "As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "target_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an owner, I want to make a user an owner, so that they have full control.",
+    "target_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "target_story": "As an owner, I want to remove a user as an owner, so that they are just a member and no longer have full control.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "target_story": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+    "target_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.",
+    "target_story": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "label": "DEPENDS_ON"
+  }
+]

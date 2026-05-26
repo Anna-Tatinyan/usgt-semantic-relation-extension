@@ -1,0 +1,50 @@
+Transformation family:
+STATE_OR_CONDITION_TRANSFORMATION
+
+Family goal:
+Rewrite the source story by changing one central system state, object state, or runtime condition so that the source story and rewritten story cannot both be satisfied as stated, while remaining in the same feature area.
+
+Family-specific constraints:
+- Keep the same general user goal and feature area.
+- Keep the same target object, artifact, or subject of the capability wherever possible.
+- Change exactly one central descriptive condition under which the same or very similar capability applies.
+- The changed condition must be mutually exclusive with the condition in the source story.
+- Prefer explicit oppositional state pairs such as active/inactive, visible/hidden, authenticated/unauthenticated, verified/unverified, locked/unlocked, enabled/disabled, public/private, draft/published, expired/valid, open/closed, archived/deleted, local/remote only if the domain makes them mutually exclusive.
+- The rewritten story must fail the coexistence test: if the source story and rewritten story could both be implemented together as optional modes, separate filters, broader/narrower scopes, sequential steps, or additional supported cases, the rewrite is invalid.
+- Do not merely add a new context, platform, location, data source, user group, or execution mode unless it directly excludes the original condition.
+- Do not introduce a condition that merely acts as a prerequisite, setup step, readiness condition, lifecycle dependency, or availability requirement for performing the source story later.
+- Avoid formulations such as "after", "once", "when available", "when approved", "after setup", or "if configured" when they create a dependency rather than a mutually exclusive state.
+- The incompatibility must result from the changed state or condition itself, not from a changed permission, ownership rule, approval policy, or access-control rule.
+- Do not generate a near-duplicate.
+- Do not turn the rewrite into a paraphrase, prerequisite/setup story, or simple feature extension.
+- Keep the rewritten story realistic and plausible in a real backlog.
+- If the source story does not contain an explicit state or condition, introduce only a condition that directly excludes the source behavior; do not create a harmless additional variant.
+
+Internal validity check before finalizing each item:
+1. Identify the source condition.
+2. Identify the rewritten condition.
+3. Ask whether both stories could be implemented together without contradiction.
+4. If yes, revise the rewritten story until both stories cannot both be satisfied as stated.
+5. If the rewritten story only adds an optional case, additional mode, broader scope, narrower scope, or future dependency, revise it.
+
+Example:
+Input stories:
+[
+  {
+    "story_id": "1",
+    "source_story": "As a user, I want to edit my document while it is in draft so that I can revise it before publishing."
+  }
+]
+
+Example output:
+{
+  "items": [
+    {
+      "story_id": "1",
+      "source_story": "As a user, I want to edit my document while it is in draft so that I can revise it before publishing.",
+      "generated_story": "As a user, I want to edit my document only after it is published, not while it is still in draft, so that final documents can still be corrected.",
+      "transformation": "STATE_OR_CONDITION_TRANSFORMATION",
+      "rationale": "The generated story keeps the same editing capability and document object, but changes the allowed document state from draft to published. Because the rewritten story excludes editing while draft, both stories cannot be satisfied as stated."
+    }
+  ]
+}

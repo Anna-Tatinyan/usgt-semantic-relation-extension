@@ -1,0 +1,247 @@
+[
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "label": "CONFLICT"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.",
+    "target_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "target_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+    "target_story": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "target_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "target_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.",
+    "target_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "target_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "target_story": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to validate the data I am about to publish to the registry, so that that I publish good data and know that I am doing.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "target_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "target_story": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.",
+    "target_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "target_story": "As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "target_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.",
+    "target_story": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "target_story": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "target_story": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.",
+    "target_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "target_story": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "target_story": "As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "target_story": "As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.",
+    "target_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "label": "DUPLICATE"
+  },
+  {
+    "source_story": "As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+    "target_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "target_story": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+    "target_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "target_story": "As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "target_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+    "target_story": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.",
+    "target_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "target_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "target_story": "As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",
+    "target_story": "As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+    "target_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.",
+    "target_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "target_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.",
+    "target_story": "As an owner, I want to make a user an owner, so that they have full control.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an owner, I want to make a user an owner, so that they have full control.",
+    "target_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "label": "DEPENDS_ON"
+  },
+  {
+    "source_story": "As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.",
+    "target_story": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an owner, I want to make a user an owner, so that they have full control.",
+    "target_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "label": "NONE"
+  },
+  {
+    "source_story": "As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.",
+    "target_story": "As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable.",
+    "label": "NONE"
+  }
+]
