@@ -1,0 +1,82 @@
+No.,Researcher 1 label,Researcher 2 label,Researcher 1’s interpretation,Researcher 1’s interpretation,Final Label,Direction,Final conclusion,User story 1,User story 2,
+1,NONE,CONFLICT,"Researcher 1 treated the two stories as variants of publishing visibility, not as a strict contradiction.",Researcher 2 treated “few people” and “everyone publicly” as incompatible access-control goals.,CONFLICT,Equivalent / no direction,The final label is CONFLICT because the same publishing action has mutually exclusive visibility intentions: limited sharing versus public sharing.,"As a Publisher, I want to publish a dataset, so that I can view just the dataset with a few people.","As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.",
+2,NONE,DEPENDS_ON,Researcher 1 treated “dataset” and “data package” as different artifacts and therefore did not assign a direct dependency.,Researcher 2 treated client configuration as a prerequisite for publishing data packages or datasets.,DEPENDS_ON,US1 depends on US2,The final label is DEPENDS_ON because publishing requires the client to be configured first at the requirements level.,"As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.","As a Publisher, I want to configure my client, so that I can start publishing data packages.",
+3,DUPLICATE,DEPENDS_ON,Researcher 1 treated notification of changes and knowing what changed as part of the same change-awareness requirement.,Researcher 2 treated notification as a trigger that enables the consumer to inspect detailed changes afterward.,DUPLICATE,Equivalent / no direction,The final label is DUPLICATE because both stories focus on consumer awareness of package changes and taking action based on those changes.,"As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.","As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+4,NONE,DEPENDS_ON,Researcher 1 treated importing and updating as separate publishing operations.,Researcher 2treated updating an already registered package as dependent on the package first being imported into the registry.,DEPENDS_ON,US2 depends on US1,Researcher 2interpreted importing into the registry as a prerequisite for later tagging.,"As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.","As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.",
+5,NONE,DEPENDS_ON,Researcher 1 treated importing and tagging as separate registry features.,Researcher 2treated tagging or snapshotting as requiring that the data package already exists on the registry server.,DEPENDS_ON,US2 depends on US1,The final label is DEPENDS_ON because creating a snapshot or tag on the registry requires the package to be present in the registry first.,"As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access.","As a Publisher, I want to tag datapackage to create a snapshot of data on the registry server, so that that consumers can refer to it.",
+6,DEPENDS_ON,NONE,Researcher 1 reasoned that consumers can only search packages after publishers configure clients and publish packages.,Researcher 2treated publisher-side configuration and consumer-side search as different workflows with no direct dependency.,NONE,No relation,The final label is NONE because configuring a publisher client is not directly required by the consumer search requirement.,"As a Publisher, I want to configure my client, so that I can start publishing data packages.","As a Consumer, I want to search data packages, so that that I can find the ones I want.",
+7,DEPENDS_ON,NONE,Researcher 1 connected publisher configuration to making publisher-owned packages searchable.,Researcher 2treated configuration and searching within a publisher’s packages as separate functions.,NONE,No relation,The final label is NONE because searching among a publisher’s packages does not directly depend on the client-configuration story.,"As a Publisher, I want to configure my client, so that I can start publishing data packages.","As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+8,DEPENDS_ON,NONE,Researcher 1 linked publisher updates with the analyst’s ability to obtain the latest version.,Researcher 2treated server-side publishing and local analyst updates as separate user goals.,NONE,No relation,The final label is NONE because updating a registry package and updating a previously downloaded local package are related by topic but are not the same requirement and do not form a direct dependency.,"As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.","As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.",
+9,DEPENDS_ON,DUPLICATE,Researcher 1 interpreted publishing in the UI as a prerequisite for later displaying the package attractively.,Researcher 2treated both stories as concerning publication and public presentation of the data package.,DUPLICATE,Equivalent / no direction,The final label is DUPLICATE because both stories express the goal of making a published data package available and visible to consumers.,"As a Publisher, I want to publish a data package in the UI, so that that it is available and published.","As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.",
+10,DUPLICATE,NONE,Researcher 1 treated both stories as previewing a prepared data package before sharing or publishing.,Researcher 2focused on the CLI and view-configuration details and therefore treated the first story as more specific than generic previewing.,DUPLICATE,Equivalent / no direction,The final label is DUPLICATE because both stories describe previewing a prepared data package to check or refine it before publication or sharing.,"As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.","As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.",
+11,DUPLICATE,NONE,Researcher 1 treated viewing a data package online and viewing a specific version online as the same general viewing requirement.,Researcher 2distinguished generic online viewing from version-specific online viewing.,DUPLICATE,Equivalent / no direction,The final label is DUPLICATE because the second story is a more specific formulation of the same core capability: viewing a data package online.,"As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.","As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.",
+12,NONE,DEPENDS_ON,Researcher 1 treated package presentation and publisher profile viewing as separate consumer-facing features.,Researcher 2treated the publisher profile as supporting discovery and evaluation of published data.,DEPENDS_ON,US2 depends on US1,"The final label is DEPENDS_ON because presenting published data to consumers is supported by the publisher profile context, which helps users discover and assess packages.","As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention.","As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.",
+13,NONE,DUPLICATE,Researcher 1 distinguished publisher-oriented examples for learning the format from consumer-oriented examples for exploring the site.,Researcher 2treated both stories as requesting quick access to example published packages.,NONE,No relation,"The final label is NONE because the actors and purposes differ: one supports publishers learning how to publish, while the other supports consumers evaluating site usefulness.","As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.","As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.",
+14,DUPLICATE,NONE,"Researcher 1 treated both stories as search requirements over data packages, where description-based search and publisher-based search are variants of the same search functionality.","Researcher 2distinguished the search criteria: one story concerns keyword or description-based search, while the other concerns filtering packages by publisher ownership.",NONE,No relation,The final label is NONE because searching by package description and searching within one publisher’s packages use different criteria and express separate requirements.,"As a Consumer, I want to search based on description of data package, so that that I can find package which related to some key words.","As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+15,NONE,DUPLICATE,Researcher 1 distinguished local comparison of versions from understanding schema-change details.,Researcher 2treated both stories as addressing version and schema change analysis.,NONE,No relation,"The final label is NONE because the first story concerns local comparison for analytics code, while the second concerns knowing detailed schema-change information.","As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.","As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.",
+16,DUPLICATE,DEPENDS_ON,Researcher 1 treated notification of changes and knowing what changed as part of the same change-awareness requirement.,Researcher 2treated notification as a trigger that enables the consumer to inspect detailed changes afterward.,DUPLICATE,Equivalent / no direction,The final label is DUPLICATE because both stories focus on consumer awareness of package changes and taking action based on those changes.,"As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.","As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.",
+17,NONE,DEPENDS_ON,Researcher 1 treated viewing a publisher profile and searching packages by publisher as separate consumer tasks.,Researcher 2treated searching among packages owned by a publisher as dependent on identifying or accessing the publisher context first.,DEPENDS_ON,US2 depends on US1,"The final label is DEPENDS_ON because searching among packages owned by a publisher presupposes a publisher context, which is provided by the publisher profile.","As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce.","As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.",
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,No.,Researcher 1 label,,,,,,,,Direction
+,1,NONE,,,,,,,,Bidirectional conflict
+,2,NONE,,,,,,,,US1 depends on US2
+,3,DEPENDS_ON,,,,,,,,Equivalent / no direction
+,4,NONE,,,,,,,,US2 depends on US1
+,5,NONE,,,,,,,,US2 depends on US1
+,6,DEPENDS_ON,,,,,,,,No relation
+,7,DEPENDS_ON,,,,,,,,No relation
+,8,DEPENDS_ON,,,,,,,,No relation
+,9,DEPENDS_ON,,,,,,,,Equivalent / no direction
+,10,DUPLICATE,,,,,,,,Equivalent / no direction
+,11,,,,,,,,,Equivalent / no direction
+,12,,,,,,,,,US1 depends on US2
+,13,,,,,,,,,No relation
+,14,,,,,,,,,No relation
+,15,,,,,,,,,No relation
+,16,,,,,,,,,Equivalent / no direction
+,17,,,,,,,,,US2 depends on US1
